@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>book for you</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body> 
+    
+    <div class="motive">
+      
+      <h2>
+        1 book kya aap pe to zindagi likh du💕
+          <br />
+          <br>
+        💕 aapke coding ka ANS coding see😻.
+        <br />
+        <br>
+        <span> You're so sweet💖.</span>
+      </h2>
+    </div>
+    <div class="instruction">Flip the page to read it</div>
+    <div class="book">
+      <div class="page cover-front" onclick="movePage(this, 1)">
+        <h1>HAPPY BIRTHDAYY ROSEEE💕</h1>
+        <img src="data:image/jpeg;base64,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" height="330" width="290" alt="">
+        <div class="hat"><i class="fab fa-pied-piper-hat"></i></div>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <h2>@_.CODE_BY_ANURAG_.</h2>
+      </div>
+      <div class="page cover-front" onclick="movePage(this, 2)">
+       <img src=" C:\New folder\shreee ramm\New folder\IMG-20231030-WA0005-COLLAGE.jpg" width="360" height="550">
+      </div>
+      <div class="page text-page" onclick="movePage(this, 3)">
+        <p>Dear ROSEEEE❤️, this is for you 🤞💖</p>
+        <p>
+          "Every moment spent with you feels like <br>
+           a chapter from my favorite book 🥹,<br>
+           and I can't help but want to write more stories together.🫀 <br> Would you do me the honor of allowing me 🫶<br>
+            to be your co-author in this😚 <br>
+             beautiful journey called life🥹💕?"
+             <br>
+             mai tera sath hamesha chahunga
+             <br>or hamesha chahunga🫀
+
+        </p>
+        
+        <iframe src=" https://www.youtube.com/embed/iRGvz_NUmig?si=dXEa82eOuvdxs3iMwidth= height="450" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <br /><br />
+        <p><b>Note: Play the VIDEO Before Read it .</b></p>
+
+        <br /><br /><br />
+        <p>Please turn the page..</p>
+      </div>
+      <div class="page text-page" onclick="movePage(this, 4)">
+        <p>
+            bhaii tera bday special h tujhee nhi lgta houga   <br>
+            but humse puch kee dekhhh                        <br>
+            tera meri life mai aana or aake aise bass jana <br>
+          you know what jb bhi tuu mujhse ladti h ya naraj hoti h  <br>
+          mai kaise rehta hu ye mujhe pta h 😭 bss express nhi krta mai 
+          <br> 
+        </p>
+
+        <p>
+           
+          meri life ka sbse best din pta hai konsa tha!!???? <br>
+          mai btata hu 11 october  pta hai kyuuuu??? kyuki uss din <br>
+          abb iska answer to tuu mujhse acha pata hii houga               <br>
+          
+        </p>
+       
+        
+      </div>
+      <div class="page text-page" onclick="movePage(this, 5)">
+        <p>
+            <b>shree shivcharan sahab</b> ki beti  ho aar pata h attitude to bohot h tumhare pass <br>
+            tu kya jane bhai teri tareef ka mauka to deke dekh  jab tujhe<br>
+          smjh ayega kitni imp hoo tum hamari lifeee m
+          <br>
+          aab apko dekh ke <br><b> shree harisingh meenajii</b> ke suputr hum hang hojate h!!!!!!!!
+          <br>
+          to tu smjh hi skti hai tuu kitni speciall haiii
+          Tujhse baat krke dil ko aata hai sukun <b>rosee❤️</b>
+        </p>
+        <p>
+         dekh mujhe nhi pata tu mujhe kya manti h <br>
+        prr mai to khud ko useless looser manta huu😭🤞
+         <br>jo tere bday pee bhi nhii h😭😭😭 <br>
+         but but   but  <br>
+         how's my this gift? is this perfect ??
+        </p>
+        <p>
+         pata nhi bhai tujhe acha lage ya na lage <br>
+         but words sidha heart se nikl rhe h to bss padh thi rhh, <br>
+         bsss  mai itna chahta huu tuu khuss rhhhh bhaiii<br>
+        </p>
+        <p>
+          Happy Birthdayyyyy ❤️❤️❤️ 😘
+          <br>
+          tera pata nhi 2024 kesa raha  but meraa skuun wala timee tha  <br>
+          why <br>
+          because god gifted me you,againn...😭🤞
+        </p>
+      </div>
+      <div class="page text-page" onclick="movePage(this, 6)">
+        <p>
+          again again HAPPYYY BiRTHDAYY ROSEEEE❤️❤️
+         <br>
+         bhai bhai tunee kya pata mere gift ke sath kya kiyaaa <br>
+         mujh gareeb ko ek baar nhi dikhaya kesi lgti h tu ussmee😭🤞
+         <br>
+        </p>
+        <p>
+          if anyone say choose b/w ahishh and you i'll choose ashishhh 🤣 <br>
+          majjak tha 🤣 , i'll choose you <br>
+          you're my perfect partner and most important person in my life🥺 
+
+        </p>
+        <p>
+          pta hai ROSEEE❤️ mai aisa ladka nhi tha, <br>
+          tujhe bhi pta hai mujhe pharak nhi padta kon aata hai or kon jata hai, <br>
+          meri jindagi se mgr pta nhi kyu Tujhse pharak padne laga or bht jyada padne laga.
+          mai jyada to nhi jaanta mgr itta jaanta hu ki nhi reh skta mai tere bina ab,
+          pata nhi bhai tera  faislaa kya houga 11 oct 2025 but syaad mera 98 2 wla sach ho jayee.....
+          pta nhi me tere sath ho ya na hou agle bdayy tkk but meri blessings hmesha ere sath rhegii.... 
+          prr tu jbb bhi yaad kregi mai khi bhi hounga tere liyee hazir ho  jaungaa....
+          <b>in any SITUATION</b>
+        </p>
+      </div>
+      <div class="page text-page">
+        <p>
+          bss Roseee❤️ yahi bolunga ki bht pyaar krta tha,hu or rahunga teseeee<br>
+          apni aakhri saas takk. <b>bss tu hmesha khushs rhena tere face pe udaasi achi ni lgti 
+            you are rose tu h pyaariii so always keep smilingg💖</b>
+        </p>
+        <p>......This is Not limited here</p>
+        <p><b>You are My Everything ROSEEEE💖.</b></p>
+<h2>ROSSEEE ji❤️ ❤️  again HAPPY BiiRTHDAYY🥹</h2>
+        <h2>and tell me about this post</h2>
+        <img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif" height="160" />
+        <h2> and lastly i would like to say</h2>
+        <pre><b>i reallly realyy loveeee youu soo muchhh 
+            and i will lovee you till 
+            my body inhaling the breathh💖💖💖🥺🥺</b></pre>
+        <button id="botao1">haayeeee  ❤️❤️🥺</button>
+      </div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+    </div>
+
+    <script>
+      document.getElementById("botao1").addEventListener("click", function () {
+        alert("you're always in my heart ROSEEE❤️ , Drop a Message when you are Free ..");
+      });
+    </script>
+    <script src="anurag.js"></script>
+  </body>
+</html>
